@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h1>The select element</h1>
-
-<h1>Project Explorer</h1>
-<p>One Stop Database For Academic Project</p>
-</Header>  
+<header>
+  <h1>Project Explorer</h1>
+  <p>One Stop Database For Academic Project</p>
+</header>
+ 
 <nav>
   <a href="index.html">Home</a> |
   <a href="search.html">Projects</a> |
@@ -18,25 +17,25 @@
 
 <form>
     <div class="form-group row">
-     <label for="staticEmail" class="col-sm-2 col-form-label"<Email</label>
+     <label for="staticEmail" class="col-sm-2 col-form-label"></label>
      <div class="col-sm-10">
-       <input type="text" searchterm="form-control-plaintext" id="SearchTerm" Value="ProjectName,Authors,Abstract,Tags"><br><br>
-       </div>
-      </div>
-      <div>Search By: <br>        
-     <select><option value="Name" name="SearchType">Name</option>
-     </select>
-     </div><br>
-     
-
-     <form>
-    <div class="form-group row">
-     <label for="staticEmail" class="col-sm-2 col-form-label"<Email</label>
-     <div class="col-sm-10">
-       <input type="text"readonly class="form-control-plaintext" id="Staticsearch" Value="search"
+       <h2>Search Project by</h2><br>
+       <input type="text" id="searchTerm" name="searchTerm" placeholder="ProjectName,Authors,Abstract,Tags"><br><br>
        </div>
       </div>
       
+      <div>
+        <h3>Search By: </h3> <br>        
+     <select><option value="Name" name="searchType">Name</option>
+     </select>
+     </div><br>
+     
+    <div class="form-group row">
+     <label for="staticEmail" class="col-sm-2 col-form-label"></label>
+     <div class="col-sm-10">
+       <input type="text"readonly class="form-control-plaintext" id="Staticsearch" Value="search">
+      </div>
+    </div>
              
      
      
